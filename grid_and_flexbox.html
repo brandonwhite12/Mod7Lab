@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: darkred;
+  padding: 10px;
+  color: red;
+}
+
+.grid-container > div {
+  background-color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.item1 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+    
+h1 {
+    color: darkred;
+}
+</style>
+</head>
+<body>
+
+<h1>Grid and Flex</h1>
+
+<div class="grid-container">
+  <div class="item1">Item 1</div>
+  <div class="item2">Item 2</div>
+  <div class="item3">Item 3</div>  
+  <div class="item4">Item 4</div>
+  <div class="item5">Item 5</div>
+  <div class="item6">Item 6</div>
+  <div class="item7">Item 7</div>
+  <div class="item8">Item 8</div>  
+</div>
+
+</body>
+</html>
+
+
